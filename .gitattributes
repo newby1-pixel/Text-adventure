@@ -1,2 +1,53 @@
-# Auto detect text files and perform LF normalization
-* text=auto
+print("THE TEXT GAME")
+import time
+print("START? ( TYPE EITHER YES OR NO )")
+act = input("( TYPE EITHER YES OR NO )")
+if act == "yes":
+    print("You are woken up in a shuttle wearing a yellow space suit with other cluless people. What do you do?")
+    act = input("Look Around or ask: what the what is happening?")
+    
+    if act == "look around":
+        time.sleep(6)
+        print("YOU: ??? (you are unfamiliar with the place other than it looks like The Skeld) ")
+        time.sleep(2)
+        print("WHITE: If you think we are in among us you are correct.")
+        time.sleep(2)
+        print("BROWN: true")
+        time.sleep(2)
+        print("RED: Cyan is dead!")
+        time.sleep(2)
+        print("WHITE: dude, You didnt sabatoge lights so we saw you")
+        time.sleep(2)
+        print("(Everyone votes red. Red was an imposter)")
+        time.sleep(2)
+        print("(Lights Go Off)")
+        time.sleep(2)
+        act = input("Do You: Run To electrical or do other tasks")
+        if act == "run to electrical":
+                print("(You run to electrical)")
+                time.sleep(3)
+                print("BROWN: Goodbye.")
+                print("YOU: !!!")
+                print("(You get shot by brown.)")
+                time.sleep(2)
+                print("----------------------------------GAME OVER-------------------------------------")
+        elif act == "do other tasks":
+            print("( You do o2 , nav , reactor and card swipe with only one swipe)")
+            time.sleep(2)
+            print("Allmost all tasks done.")
+            time.sleep(2)
+            print("Do the .....")
+            act = input("cafe or coms?")
+            if act == "cafe":
+                print("(You go clear garbage.)")
+                time.sleep(2)
+                print("---------------------------------------WIN---------------------------------------")
+                time.sleep(2)
+                print("Brown Was Imposter")
+elif act == "no":
+    print("Then screw you go away")
+    time.sleep(10)
+    print("Ok Its been ten seconds. ")
+    time.sleep(5)
+    print("OK! Fine. I will do the Mira HQ.")
+    
